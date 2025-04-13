@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #fefefe;
+    color: #2e2e2e;
+    line-height: 1.7;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 750px;
+    margin: auto;
+    background: #fffdfa;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .contact {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: #777;
+  }
+  
+  section {
+    margin-bottom: 35px;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    color: #34495e;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .job h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+    color: #2d3436;
+  }
+  
+  .date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .skills li {
+    background: #f1f1f1;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #666;
+  }
+  
+  footer p:first-child {
+    margin-bottom: 10px;
+  }
+  
+  footer .copyright {
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+  
